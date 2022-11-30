@@ -1,0 +1,13 @@
+.inputs input{
+  width: 90%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+button {
+  background-color: rgb(89, 233, 226);
+  border-style: none;
+  border-radius: 5px;
+  padding: 8px;
+  box-shadow: 1px 1px 5px rgb(7, 85, 81);
+  
+}

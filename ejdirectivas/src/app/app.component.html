@@ -1,0 +1,14 @@
+
+<main class="container">
+  <aside class="form">
+    <app-formulario (ejercicioEmitido)="guardarEjercicio($event)"></app-formulario>
+  </aside>
+  <section class="list">
+    <app-lista-entrenos [listaEjercicios]="arrEntrenos"></app-lista-entrenos>
+    <hr>
+    <app-totales> [listaEjercicios]="arrEntrenos"</app-totales>
+  </section>
+  
+
+</main>
+

@@ -1,0 +1,9 @@
+
+<h2>Entrenamientos</h2>
+
+<ul *ngIf="listaEjercicios.length > 0; else bloqueElse">
+  <li *ngFor="let ejercicio of listaEjercicios;">{{ejercicio.ejercicio}} {{ejercicio.tiempo}} minutos {{ejercicio.fecha}}</li>
+</ul>
+<ng-template #bloqueElse>
+  No hay entrenamientos disponibles
+</ng-template>

@@ -1,0 +1,15 @@
+<main>
+  <aside class="form">
+    <app-formulario (ejercicioEnviado)="guardarEjercicio($event)"></app-formulario>
+  </aside>
+  
+  
+  <section>
+    <div class="lista">
+      <app-lista-entrenos [ejercicios]="arrEjercicios"></app-lista-entrenos>
+    </div>
+    <div class="totales">
+      <app-totales [ejercicios]="arrEjercicios"></app-totales>
+    </div>
+  </section>
+</main>

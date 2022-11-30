@@ -1,0 +1,15 @@
+<div class="datos">
+  <div>
+    <label for="">Entrenamiento</label>
+    <input class="ejercicio" type="text" id="ejercicio" [(ngModel)]="nuevoEjercicio.ejercicio">
+  </div>
+  <div>
+    <label for="">Tiempo</label>
+    <input class="tiempo" type="number" id="tiempo" [(ngModel)]="nuevoEjercicio.tiempo">
+  </div>
+  <div>
+    <label for="">Fecha</label>
+    <input class="fecha"  type="date" id="fecha" [(ngModel)]="nuevoEjercicio.fecha">
+  </div>
+  <button (click) = "getDatos()">Guardar</button>
+</div>

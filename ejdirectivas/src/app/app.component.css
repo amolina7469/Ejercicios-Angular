@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+}
+
+.container {
+
+  display: flex;
+  gap: 20px;
+}
+
+.form{
+
+  background-color: lightseagreen;
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+  box-shadow: 1px 1px 5px rgb(106, 194, 189); 
+  
+  
+}
+
+.list {
+  
+  background-color: lightpink;
+  width: 400px;
+  padding: 10px;
+  box-shadow: 1px 1px 5px rgb(240, 181, 189);
+  
+}

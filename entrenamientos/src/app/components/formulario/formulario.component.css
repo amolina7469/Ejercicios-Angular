@@ -1,0 +1,24 @@
+input {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ejercicio {
+  margin-bottom: 10px;
+}
+.tiempo {
+  margin-bottom: 10px;
+}
+.fecha {
+  margin-bottom: 10px;
+}
+.datos {
+  padding: 10px;
+}
+button {
+  padding: 4px;
+  background-color: rgb(90, 185, 245);
+  border: 1px solid rgb(15, 153, 238);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(15, 153, 238);
+  cursor: pointer;
+}

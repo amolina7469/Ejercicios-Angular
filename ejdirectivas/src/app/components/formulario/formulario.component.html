@@ -1,0 +1,10 @@
+
+<div class="inputs">
+  <label for="">Ejercicio</label>
+  <input type="text" id="ejercicio" [(ngModel)]="nuevoEjercicio.ejercicio">
+  <label for="">Tiempo en minutos</label>
+  <input type="text" id="tiempo" [(ngModel)]="nuevoEjercicio.tiempo">
+  <label for="">Fecha del ejercicio</label>
+  <input type="date" id="fecha"  [(ngModel)]="nuevoEjercicio.fecha">
+  <button (click)="recogerEjercicioForm()">Guardar</button>
+</div>
