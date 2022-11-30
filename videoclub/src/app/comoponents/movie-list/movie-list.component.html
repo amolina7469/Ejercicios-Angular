@@ -1,0 +1,12 @@
+<aside>
+  <app-filter></app-filter>
+  <app-search></app-search>
+</aside>
+
+<main>
+  <h3>Lista Películas</h3>
+  <hr>
+  <article class="card p-2 mb-3" *ngFor="let movie of movies">
+    <app-movie-card [movieCard]="movie"></app-movie-card>
+  </article>
+</main>
